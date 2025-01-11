@@ -1,0 +1,88 @@
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color:#264653;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+}
+
+button{
+    border: none;
+    padding: 5px 25px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    background-color: #E9C46A;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 600;
+    display: inline;
+}
+.back{
+    margin: 50px 0px;
+    padding: 15px 45px;
+    width: 80%;
+    background-color: #E76F51;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 900;
+    margin: 0px 0px 50px;
+    animation-name: settings;
+    animation-duration: 3s;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0px;
+    display: inline;
+    animation-name: settings;
+}
+
+h3{
+    font-size: 60px;
+    margin: 10px 10px;
+    font-weight: 900;
+    display: inline;
+}
+
+div{
+    background-color: #1e3842;
+    margin: 0px 0px 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+button:hover{
+    animation-name: buttons;
+    animation-duration: 1s;
+}
+
+
+@keyframes settings{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+@keyframes buttons {
+    0%{
+        background-color: #E76F51;
+    }
+    50%{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #E8AE63;
+    }
+    100%{
+        background-color: #E76F51;
+    }
+}

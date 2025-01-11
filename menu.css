@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body{
+    background-color:#264653;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+h1{
+    animation-name: krocodile;
+    animation-duration: 1s;
+    margin: 10px;
+    font-size: 100px;
+    font-weight: 900;
+}
+h3{
+    animation-name: krocodile;
+    animation-duration: 2.5s;
+    display: block;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-size: 62px;
+    font-weight: 400;
+}
+button{
+    display: block;
+    background-color: #E76F51;
+    border-radius: 20px;
+    border: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Montserrat;
+    font-size: 70px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+button:hover{
+    animation-name: buttons;
+    animation-duration: 0.8s;
+}
+
+@keyframes buttons {
+    0%{
+        background-color: #E76F51;
+    }
+    50%{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #E8AE63;
+    }
+    100%{
+        background-color: #E76F51;
+    }
+}
+
+@keyframes krocodile {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
